@@ -22,7 +22,9 @@ int main() {
 	printf("part3:\t%x\t%x\t%x\n", num1, num2, num3);
 
 
-	printf("\n\npart4:\t%d\t%d\t%d\t%d\n", 0x7ffffffe, 0x7fffffff, 0x80000000, 0x80000001);
+	printf("\n\n\t%d\t%d\t%d\t%d\n", 0x7ffffffe, 0x7fffffff, 0x80000000, 0x80000001);
+
+	printf("Part 4: %u\n\n", 0xffffffff);
 
 	int a = 0x3;
 	int b = 0x5;
@@ -43,9 +45,20 @@ int main() {
 	// PART 6
 	num = 10;
 
-	printf("SHIFT: %d\n", num<<1);
-	printf("SHIFT: %d\n", num<<2);
-	printf("SHIFT: %d\n", num<<3);
+	printf("SHIFT LEFT: %d\n", num<<1);
+	printf("2 SHIFT LEFT: %d\n\n", num<<2);
+
+	num2 = -10;
+	printf("SHIFT RIGHT: %d\n", num>>1);
+	printf("SHIFT RIGHT: %d\n\n", num2>>1);
+
+	printf("UNSIGNED 10: %u\n", num);
+	printf("UNSIGNED SHIFT LEFT: %u\n", num<<1);
+	printf("UNSIGNED SHIFT RIGHT: %u\n\n", num>>1);
+
+	printf("UNSIGNED -10: %u\n", num2);
+	printf("UNSIGNED SHIFT LEFT: %u\n", num2<<1);
+	printf("UNSIGNED SHIFT RIGHT: %u\n\n", num2>>1);
 
 	return 0;
 }
