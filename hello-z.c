@@ -1,33 +1,34 @@
 #include <stdio.h>
 
 int main() {
-	int num = 74;
+	
+	// PART 2
+	printf("Hello, world!\n");
 
-	printf("hex %x\nASCII %c\n\n", num, num);
+
+	int num = 74;
+	printf("int %d\thex %x\tASCII %c\n", num, num, num);
 
 	num = 0x5A;
-
-	printf("decimal %d\nASCII %c\n", num, num);
+	printf("int 0x5A\tdecimal %d\tASCII %c\n", num, num);
 
 	num = 'a';
-	
-	printf("part2:\ndecimal %d\nhex %x\n", num, num);
+	printf("int %c\tdecimal %d\thex %x\n\n", num, num, num);
 
-	printf("\n\n");
-
+	// PART 3
 	int num1 = -1;
 	int num2 = -2;
-	int num3 = -3;
-	
-	printf("part3:\t%x\t%x\t%x\n", num1, num2, num3);
+	int num3 = -3;	
+	printf("%d, %d, %d:\t%x\t%x\t%x\n", num1, num2, num3, num1, num2, num3);
+
+	printf("%d\t%d\t%d\t%d\n\n", 0x7ffffffe, 0x7fffffff, 0x80000000, 0x80000001);
 
 
-	printf("\n\npart4:\t%d\t%d\t%d\t%d\n", 0x7ffffffe, 0x7fffffff, 0x80000000, 0x80000001);
-
+	// PART 5
 	int a = 0x3;
 	int b = 0x5;
 
-	printf("\n\npart5:\t%x\t%x\t%x\t%x\n", a & b, a | b, ~a, ~b);
+	printf("part5:\t%x\t%x\t%x\t%x\n", a & b, a | b, ~a, ~b);
 
 
 	// ZEROING
