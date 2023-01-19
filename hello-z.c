@@ -3,6 +3,7 @@
 int main() {
 	
 	// PART 2
+	printf("PART 2\n");
 	printf("Hello, world!\n");
 
 
@@ -16,6 +17,8 @@ int main() {
 	printf("int %c\tdecimal %d\thex %x\n\n", num, num, num);
 
 	// PART 3
+	printf("PART 3\n");
+
 	int num1 = -1;
 	int num2 = -2;
 	int num3 = -3;	
@@ -24,26 +27,31 @@ int main() {
 	printf("%d\t%d\t%d\t%d\n\n", 0x7ffffffe, 0x7fffffff, 0x80000000, 0x80000001);
 
 	// PART 4
-	printf("Part 4: %u\n\n", 0xffffffff);
+	printf("PART 4\n");
+
+	printf("%u\n\n", 0xffffffff);
 
 	// PART 5
+	printf("PART 5\n");
+
 	int a = 0x3;
 	int b = 0x5;
 
-	printf("part5:\t%x\t%x\t%x\t%x\n", a & b, a | b, ~a, ~b);
+	printf("%x\t%x\t%x\t%x\n", a & b, a | b, ~a, ~b);
 
 
-	// ZEROING
 	int mask = 0xF;
 	int other = 10000;
 
 	printf("ZEROING:\t %d:%x \n", other, other & mask);
 
 	int mask2 = 0xFFFFFFF0; 
-	printf("ONEING(?):\t %d:%x \n", other, other | mask2);
+	printf("ONEING(?):\t %d:%x \n\n", other, other | mask2);
 
 
 	// PART 6
+	printf("PART 6\n");
+
 	num = 10;
 
 	printf("SHIFT LEFT: %d\n", num<<1);
