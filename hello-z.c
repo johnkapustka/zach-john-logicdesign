@@ -52,22 +52,24 @@ int main() {
 	// PART 6
 	printf("PART 6\n");
 
-	num = 10;
+	int num4 = 10;
 
-	printf("SHIFT LEFT: %d\n", num<<1);
-	printf("2 SHIFT LEFT: %d\n\n", num<<2);
+	printf("SHIFT LEFT: %d\n", num4<<1);
+	printf("2 SHIFT LEFT: %d\n\n", num4<<2);
 
-	num2 = -10;
-	printf("SHIFT RIGHT: %d\n", num>>1);
-	printf("SHIFT RIGHT: %d\n\n", num2>>1);
+	int num5 = -10;
+	printf("SHIFT RIGHT: %d\n", num4>>1);
+	printf("SHIFT RIGHT: %d\n\n", num5>>1);
 
-	printf("UNSIGNED 10: %u\n", num);
-	printf("UNSIGNED SHIFT LEFT: %u\n", num<<1);
-	printf("UNSIGNED SHIFT RIGHT: %u\n\n", num>>1);
+	unsigned int num6 = 10;
+	printf("UNSIGNED 10: %u\n", num6);
+	printf("UNSIGNED SHIFT LEFT: %u\n", num6<<1);
+	printf("UNSIGNED SHIFT RIGHT: %u\n\n", num6>>1);
 
-	printf("UNSIGNED -10: %u\n", num2);
-	printf("UNSIGNED SHIFT LEFT: %u\n", num2<<1);
-	printf("UNSIGNED SHIFT RIGHT: %u\n\n", num2>>1);
+	unsigned int num7 = -10;
+	printf("UNSIGNED -10: %u\n", num7);
+	printf("UNSIGNED SHIFT LEFT: %u\n", num7<<1);
+	printf("UNSIGNED SHIFT RIGHT: %u\n\n", num7>>1);
 
 	return 0;
 }
