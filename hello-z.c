@@ -6,6 +6,9 @@ int main() {
 	printf("PART 2\n");
 	printf("Hello, world!\n");
 
+	int x = 2;
+	int y = 3;
+	printf("x = %d  y = %d  sum = %d\n\n", x, y, x+y);
 
 	int num = 74;
 	printf("int %d\thex %x\tASCII %c\n", num, num, num);
@@ -56,22 +59,22 @@ int main() {
 
 	int num4 = 10;
 
-	printf("SHIFT LEFT: %d\n", num4<<1);
-	printf("2 SHIFT LEFT: %d\n\n", num4<<2);
+	printf("10 SHIFTED LEFT: %d\n", num4<<1);
+	printf("10 SHIFTED LEFT TWICE: %d\n\n", num4<<2);
 
 	int num5 = -10;
-	printf("SHIFT RIGHT: %d\n", num4>>1);
-	printf("SHIFT RIGHT: %d\n\n", num5>>1);
+	printf("10 SHIFTED RIGHT: %d\n", num4>>1);
+	printf("-10 SHIFTED RIGHT: %d\n\n", num5>>1);
 
 	unsigned int num6 = 10;
 	printf("UNSIGNED 10: %u\n", num6);
-	printf("UNSIGNED SHIFT LEFT: %u\n", num6<<1);
-	printf("UNSIGNED SHIFT RIGHT: %u\n\n", num6>>1);
+	printf("UNSIGNED 10 SHIFTED LEFT: %u\n", num6<<1);
+	printf("UNSIGNED 10 SHIFTED RIGHT: %u\n\n", num6>>1);
 
 	unsigned int num7 = -10;
 	printf("UNSIGNED -10: %u\n", num7);
-	printf("UNSIGNED SHIFT LEFT: %u\n", num7<<1);
-	printf("UNSIGNED SHIFT RIGHT: %u\n\n", num7>>1);
+	printf("UNSIGNED -10 SHIFTED LEFT: %u\n", num7<<1);
+	printf("UNSIGNED -10 SHIFTED RIGHT: %u\n\n", num7>>1);
 
 	return 0;
 }
