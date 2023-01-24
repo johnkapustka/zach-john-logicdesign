@@ -1,6 +1,6 @@
-instructionCount, 4
+instructionCount, 8
 NONE, 0
-ALU, 1
+ALU, 5
 SHIFT, 0
 LOAD, 2
 STORE, 0
@@ -8,11 +8,11 @@ BRANCH, 0
 JUMP, 0
 OTHER, 1
 NONE, 0
-add, 1
+add, 0
 sub, 0
-and, 0
-or, 0
-not, 0
+and, 2
+or, 1
+not, 2
 shl, 0
 shr, 0
 ldi, 2
