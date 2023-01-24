@@ -41,12 +41,14 @@ int main() {
 
 
 	int mask = 0xF;
-	int other = 10000;
+	//int other = 10000;
+	int other = 0x6FFFFFFF;
 
-	printf("ZEROING:\t %d:%x \n", other, other & mask);
+	printf("ZEROING:\t %x --> %x \n", other, other & mask);
 
-	int mask2 = 0xFFFFFFF0; 
-	printf("ONEING(?):\t %d:%x \n\n", other, other | mask2);
+	other = 0x222222F4;
+	mask = 0xFFFFFFF0; 
+	printf("ONEING(?):\t %x --> %x \n\n", other, other | mask);
 
 
 	// PART 6
