@@ -17,7 +17,8 @@ void overflow(int num1, int num2) {
 
 	// numbers overflow if two same-sign ints have an opposite sign sum
 	
-	printf("\n%d\t%x\n", num1+num2, num1+num2);
+	printf("\nDEC:\t%d + %d = %d\n", num1, num2, num1+num2);
+	printf("HEX:\t%x + %x = %x\n", num1, num2, num1+num2);
 
 	int mask = 0x80000000;
 	int sum = num1+num2;
