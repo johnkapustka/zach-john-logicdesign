@@ -1,0 +1,13 @@
+// .text
+@0000 7101 // ldi r1, 1
+@0001 7202 // ldi r2, 2
+@0002 d006 // jal 0x6    target label: fun1
+@0003 2100 // and r1, r0, r0
+@0004 d008 // jal 0x8    target label: fun2
+@0005 f000 // sys 0
+@0006 0012 // add r0, r1, r2    label: fun1
+@0007 e0f0 // jr r15
+@0008 0011 // add r0, r1, r1    label: fun2
+@0009 e0f0 // jr r15
+
+// .data
